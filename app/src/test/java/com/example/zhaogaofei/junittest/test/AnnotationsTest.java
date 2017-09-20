@@ -10,6 +10,8 @@ import org.junit.Test;
 
 /**
  * 使用BeforeClass和AfterClass修饰的必须是静态方法
+ * 在JUnit中不能使用Log进行打印数据
+ * 因为相当于是在Java开发环境下
  */
 public class AnnotationsTest {
     private static final String TAG = "AnnotationsTest";
